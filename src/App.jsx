@@ -3,7 +3,7 @@ import NavBar from "./components/NavBar";
 import Inicio from "./pages/Inicio";
 import Contacto from "./pages/Contacto";
 import ItemListContainer from "./components/ItemListContainer";
-import ItemDetailContainer from "./components/ItemDetailContainer"; // 👈 Esta es la nueva línea
+import ItemDetailContainer from "./components/ItemDetailContainer"; 
 
 function App() {
   return (
