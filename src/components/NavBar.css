@@ -1,0 +1,42 @@
+.barra-navegacion {
+    width: 100%;
+    background-color: #f8d9ec;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #3a003a;
+    margin: 0;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #3a003a;
+    font-weight: 500;
+}
+
+.menu a:hover {
+    text-decoration: underline;
+}
+
+.carrito {
+    display: flex;
+    align-items: center;
+    gap: 0.3rem;
+    font-weight: bold;
+}
